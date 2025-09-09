@@ -1,36 +1,66 @@
-# Repositório Template
-Repositório de Template para os projetos da disciplina 
-```
-Nome do Repositório (Apague este tópico)
-  O nome do repositório deve seguir o padrão <TemaProjeto>_<Nome Projeto>.
-  O nome do projeto deve representar o que foi implementado no mesmo (Ex:
-  Game xyz, Implementações Otimizadas de Algoritmos, Aplicativo xpto)
+# Busca_AgendaTelefonica
 
-Os temas de projeto são:  
- - Busca - Algoritmos de busca  
- - Ord_quad - Algoritmos de ordenação O(n²)  
- - Ord_nlogn - Algoritmos de ordenação O(n*log(n))  
- - Arv - Algoritmos de manipulação de Árvores  
- - Grafo - Algoritmos de manipulação de Grafos  
- 
- Ex: Busca_ConcorrenteDaGoogle
-```
-## Alunos  
-| Matrícula | Nome |  
-|-----------------------|---------------------|  
-| xx/xxxxxxx | xxxx xxxx xxxxx |  
-| xx/xxxxxxx | xxxx xxxx xxxxx |  
-## Descrição do projeto
-Aqui você deve dizer o objetivo deste projeto e o que realmente foi feito neste repositório.
-## Guia de instalação
-Aqui devem estar descritas as dependências do projeto (versões de linguagens e ferramentas) e as instruções necessárias para executar o projeto. 
-### Dependências do projeto
-### Como executar o projeto
+## Alunos
+
+| Matrícula   | Nome                     |
+|-------------|---------------------------|
+| 202017521   | Algusto Rodrigues Caldas |
+
+---
+
+## Descrição do Projeto
+
+Este projeto implementa uma **Agenda Telefônica** utilizando algoritmos de **busca sequencial** e **busca binária**.  
+O objetivo é permitir a pesquisa eficiente de contatos cadastrados (nome, telefone e e-mail), além de demonstrar, na prática, a diferença entre os dois tipos de busca.
+
+Funcionalidades principais:
+- Inserir contatos (nome, telefone e e-mail).  
+- Listar todos os contatos.  
+- Buscar contato por nome utilizando:  
+  - **Busca Sequencial**  
+  - **Busca Binária** (com a lista previamente ordenada).  
+
+---
+
+## Guia de Instalação
+
+### Dependências do Projeto
+- Linguagem: **Python 3.10+** (pode ser facilmente adaptado para C).  
+- Nenhuma biblioteca externa é necessária.  
+
+### Como Executar o Projeto
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/SeuUsuario/Busca_AgendaTelefonica.git
+2. Acesse a pasta do projeto:
+   ```bash
+   cd Busca_AgendaTelefonica
+3. Execute o programa:
+   ```bash
+   python main.py
+
+---
+
 ## Capturas de tela
-Neste tópico você deve adicionar imagens do funcionamento do projeto.  
- - As imagens devem ser salvas no repositório.
- - Imagens salvas em domínios eternos tendem a ficar indisponíveis e devem ser evitadas.   
-## Conclusões
-Aqui você diz se o algoritmo utilizado foi útil, se tem limitações, etc.
-## Referências
-Caso tenha utilizado algum agoritmo como base, citar o mesmo devidamente para  evitar quaisquer denuncias de plágio.
+### Apresentação
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FI09LgvLptY?si=zsL35a1L3-QWMHSY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+### Aplicação em execução
+
+#### Tela do Menu
+![Menu](assets/tela_01_menu.png)
+
+#### Inserção de Contato
+![Inserção de Contato](assets/tela_02_insercaoContato.png)
+
+#### Lista de Contatos
+![Lista de Contatos](assets/tela_03_listaContato.png)
+
+---
+
+## Conclusões 
+- A busca binária se mostrou significativamente mais eficiente que a busca sequencial, especialmente em bases grandes.
+
+- O Projeto permite observar na prática a diferença de tempo entre os algoritmos de busca.
