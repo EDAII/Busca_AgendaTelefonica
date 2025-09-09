@@ -44,7 +44,7 @@ Funcionalidades principais:
 ## Capturas de tela
 ### Apresentação
 
-[Assista ao vídeo no YouTube](https://www.youtube.com/watch?v=FI09LgvLptY)
+[![Apresentação do Projeto](/assets/thumb.png)](https://www.youtube.com/watch?v=FI09LgvLptY)
 
 ### Aplicação em execução
 
