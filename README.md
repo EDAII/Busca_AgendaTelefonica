@@ -25,7 +25,7 @@ Funcionalidades principais:
 ## Guia de Instalação
 
 ### Dependências do Projeto
-- Linguagem: **Python 3.10+** (pode ser facilmente adaptado para C).  
+- Linguagem: **Python 3.10+** 
 - Nenhuma biblioteca externa é necessária.  
 
 ### Como Executar o Projeto
